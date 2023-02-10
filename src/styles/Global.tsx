@@ -19,6 +19,7 @@ export const Flex = styled("div", {
   display: "flex",
   gap: "$1",
   alignItems: "center",
+
 });
 
 export const Box = styled("div", {
@@ -84,14 +85,14 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
 
   const theme = createTheme({
     colors: {
-      brand1: "#623CEA",
-      brand2: "#311E75",
+      brand1: "#b6a69e",
+      brand2: "#937b74",
 
       grey0: "#0A0A0B",
       grey1: "#121214",
-      grey2: "#868E96",
-      grey3: "#E9ECEF",
-      grey4: "#F8F9FA",
+      grey2: "#cfcabe",
+      grey3: "#efe6df",
+      grey4: "#f0f2f1",
       grey5: "#F8F9FA",
 
       socialInstagram: "#CF50AC",
@@ -146,6 +147,7 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
     radii: {
       1: "0.5rem",
       2: "0.25rem",
+      3: "0.50rem",
     },
   });
 

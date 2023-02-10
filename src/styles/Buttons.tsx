@@ -9,7 +9,7 @@ export const Button = styled("button", {
   fontWeight: "600",
   padding: "0 2rem",
   border: "2px solid $whiteFixed",
-  borderRadius: "$1",
+  borderRadius: "$3",
   cursor: "pointer",
   fontSize: "1rem",
   fontFamily: "$texts",

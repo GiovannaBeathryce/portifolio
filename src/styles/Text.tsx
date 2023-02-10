@@ -18,7 +18,7 @@ export const Text = styled("p", {
             heading1: {
                 fontSize: "$title1",
                 lineHeight: "$title1",
-                fontWeight: 700,
+                fontWeight: 600,
                 ...headingsDefaultConfig,
                 "@mobile": {
                     fontSize: "$title1Mobile",
